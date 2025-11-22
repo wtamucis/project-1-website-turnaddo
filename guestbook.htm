@@ -16,14 +16,14 @@
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img id="logo" src="images/lotgo.png" alt="The Bluebonnet Order"></a>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="images/lotgo.png" alt="The Bluebonnet Order"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="archive.htm">Archive</a>
@@ -45,29 +45,24 @@
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-12">
-    <img src="images/bbo5-0.png" class="img-fluid">
-    </div>
-    <div class="col-6">
-      <ul class="comic-link">
-        <li><a href="#" class="btn btn-lg btn-dark">First Page</a></li>
-        <li><a href="#" class="btn btn-lg btn-dark">Previous Page</a></li>
-        <li><a href="#" class="btn btn-lg btn-dark disabled">Next Page</a></li>
-        <li><a href="#" class="btn btn-lg btn-dark disabled">Latest Page</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-12 advert">
-      <img src="https://dummyimage.com/468x60/000/fff&text=Ad+goes+here,+boat+goes+binted" class="img-fluid">
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div id="authors-notes" class="col-8">
-    <h1>Author Notes</h1>
-    <P>So here's part 5 of our little adventure. I want to set up these pilot chapters like the weekday afternoon premires of old. I remember when the Disney Afternoon premieres spanned a week but I didn't know the same happened for Teenage Mutant Ninja Turtles which aired on New Year's Week 1987/88!</P>
-    <p></p>
-    </div>
+    <main class="col-8 pagez">
+        <h1>Guestbook</h1>
+        <form action="https://www.w3schools.com/action_page.php" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="_replyto" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Guestbook</button>
+        
+    </main>
   </div>
 </div>
 <footer id="colophon" class="row justify-content-center bd-footer">
