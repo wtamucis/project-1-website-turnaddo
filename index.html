@@ -1,18 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img id="logo" src="images/lotgo.png" alt="The Bluebonnet Order"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="archive.htm">Archive</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.htm">About</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="characters.htm">Characters</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="guestbook.htm">Guestbook</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Retriever Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <h1>Welcome to the Golden Retriever Page</h1>
-    <p>This is a sample paragraph about golden retrievers. They are friendly, intelligent, and devoted dogs, making them
-        one of the most popular breeds in the United States.</p>
-    <img src="images/golden-retrievers-public-domain.jpg" alt="Golden Retriever" class="golden-img">
-</body>
-
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12">
+    <img src="images/bbo5-0.png" class="img-fluid">
+    </div>
+    <div class="col-6">
+      <ul class="comic-link">
+        <li><a href="#" class="btn btn-lg btn-dark">First Page</a></li>
+        <li><a href="#" class="btn btn-lg btn-dark">Previous Page</a></li>
+        <li><a href="#" class="btn btn-lg btn-dark disabled">Next Page</a></li>
+        <li><a href="#" class="btn btn-lg btn-dark disabled">Latest Page</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-12 advert">
+      <img src="https://dummyimage.com/468x60/000/fff&text=Ad" class="img-fluid">
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div id="authors-notes" class="col-8">
+    <h1>Author Notes</h1>
+    <p>So here's part 5 of our little adventure. I want to set up these pilot chapters like the weekday afternoon premieres of old. I remember when the Disney Afternoon premieres spanned a week but I didn't know the same happened for Teenage Mutant Ninja Turtles which aired on New Year's Week 1987/88!</P> Five-parters were really common in the early-80's to mid-2000's before cable started being the norm and the E/I caused their damage to syndicated show. Now everything's run by Litton.</p>
+    <p>During the pandemic, I watched this old show called <em>Inhumanoids</em>, a short-lived gem that was lot more entertaining then I thought it. I know these writers at time did these for a paycheck, but <em>Man</em>, did they bring their A-game. Also, different times, so they got away with a lot more until Peggy Charren but more importantly, all who came after her led us to where we are.</p>
+    <p>YouTube and other streaming sites have also fragmented the market ad for eveyr Ms. Rachel, there's like six Cocomelons ready to cause brainrot for money. </p>
+    </div>
+  </div>
+</div>
+<footer id="colophon" class="row justify-content-center bd-footer">
+  <div id="copyright" class="col-4">&copy; <strong>2026 Astrofavilla Comics</strong>, All Rights Reserved.</div>
+  <div id="social" class="col-4">
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-bluesky btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-facebook-f btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-pixiv btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-spotify btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter btn-lg"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube btn-lg"></i></a></li>
+    </ul>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>

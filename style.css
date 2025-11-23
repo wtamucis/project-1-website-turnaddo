@@ -1,0 +1,81 @@
+body {
+    background-image: url('images/back.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: navy;
+    color: #fff;
+    font-family: Georgia, Times New Roman, serif;
+}
+
+a:link {
+    color: orchid;
+}
+
+a:visited {
+    text-decoration-color: white;
+}
+
+a:hover {
+    text-decoration-color: deepskyblue;
+}
+
+a:active {
+    color: white;
+    text-decoration: indigo;
+}
+
+h1, h2, h3 {
+    font-family: Edu QLD Hand;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#authors-notes, .pagez {
+    background-color: black;
+    border-top: 10px solid indigo;
+    border-bottom: 10px solid indigo;
+}
+
+.pagez {
+    margin: 2em auto
+}
+
+#copyright, #social {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#social {
+    text-align: right;
+}
+
+#social ul li a {
+    display: block;
+    padding: 0 1em;
+    color: white
+}
+
+.comic-link, #social ul {
+    list-style: none;
+    display: flex
+}
+
+.comic-link {
+    font-family: Edu QLD Hand;
+}
+
+.navbar {
+    font-family: Edu QLD Hand;
+    font-weight: bold;
+}
+
+.advert {
+    text-align: center;
+    padding: 2em;
+}
